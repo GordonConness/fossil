@@ -14,7 +14,23 @@
 /* ---------------------------------------------------------------------------------------------------- *
                                        TOOLTIPS - DEFAULT
  * ---------------------------------------------------------------------------------------------------- */
-.cssmap > li a,.cssmap > li a:hover,.cssmap-tooltip-content{
+ .mission-container {
+  padding: .4em 25em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ h1 {
+   font-size: 30px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ 
+ h4 {
+   font-size: 20px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ 
+ 
+ .cssmap > li a,.cssmap > li a:hover,.cssmap-tooltip-content{
   background: #111;
   background: rgba(0,0,0,.8);
   color: #eee;
