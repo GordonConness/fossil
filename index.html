@@ -4,6 +4,10 @@
 <head>
 <link rel="stylesheet" type="text/css" href="cssmap-usa/cssmap-usa.css" media="screen" />
 
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cssmapsplugin.com/5/jquery.cssmap.min.js"></script>
+
 </head>
 
 <body>
@@ -20,41 +24,58 @@
           make sure the livelihoods of fossil fuel workers do not disappear. Below, an interactive map will help identify these communities.</p>
           </div>
       </div>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://cssmapsplugin.com/5/jquery.cssmap.min.js"></script>
-<script type="text/javascript" href="fossil/js/app.js"></script>
-<script type="text/javascript">
 
-  $(document).ready(function(){
-  
-  // CSSMap;
-  $("#map-usa").CSSMap({
-    "size": 1450,
-    "mapStyle": "dark",
-    "tooltips": "floating-top-center",
-    "responsive": "auto",
-    "fitHeight": true,
-    "tapOnce": true,
-    "agentsList": {
-      "enable": true,
-      "agentsListId": "#demo-agents",
-      "agentsListSpeed": 300,
-      "agentsListOnHover": true
-    },
-    "pins": {
-      "enable": true,
-      "pinsId": "#demo-markers",
-      "mapSize": 1450,
-      "markerPosition": "middle",
-      "tooltipPosition": "top",
-      "tooltipOnClick": false,
-      "clickableRegions": true
-    }
-  });
-  // END OF THE CSSMap;
-  
-  });
-  </script>
+</body>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+// CSSMap;
+$("#map-usa").CSSMap({
+  "size": 1450,
+  "mapStyle": "dark",
+  "tooltips": "floating-top-center",
+  "responsive": "auto",
+  "fitHeight": false,
+  "tapOnce": true,
+  "mobileSupport": true,
+  "visibleList": {
+    "enable": true,
+    "listPosition": "bottom",
+    "columns": 5,
+    "columnsGap": 0,
+    "columnWidth": 0
+  },
+  "agentsList": {
+    "enable": true,
+    "agentsListId": "#demo-agents",
+    "agentsListSpeed": 100,
+    "agentsListOnHover": true
+  },
+  "pins": {
+    "enable": true,
+    "pinsId": "#demo-markers",
+    "mapSize": 1450,
+    "markerPosition": "middle",
+    "tooltipPosition": "top",
+    "tooltipOnClick": false,
+    "clickableRegions": true
+  },
+  "navigation": {
+    "enable": true,
+    "loop": true,
+    "next": "Next »",
+    "prev": "« Previous",
+    "separator": "|",
+    "label": "",
+    "description": ""
+  }
+});
+// END OF THE CSSMap;
+
+});
+</script>
+
 <div id="map-usa">
   <ul class="usa">
    <li class="usa1"><a href="#alabama">Alabama</a></li>
@@ -112,6 +133,271 @@
   </ul>
  </div>
 
+ <div id="demo-agents">
+  <ul>
+   <li id="alabama">
+ 
+     <!-- Alabama -->
+ 
+   </li>
+   <li id="alaska">
+ 
+     <!-- Alaska -->
+ 
+   </li>
+   <li id="arizona">
+ 
+     <!-- Arizona -->
+ 
+   </li>
+   <li id="arkansas">
+ 
+     <!-- Arkansas -->
+ 
+   </li>
+   <li id="california">
+ 
+     <!-- California -->
+ 
+   </li>
+   <li id="colorado">
+ 
+     <!-- Colorado -->
+ 
+   </li>
+   <li id="connecticut">
+ 
+     <!-- Connecticut -->
+ 
+   </li>
+   <li id="delaware">
+ 
+     <!-- Delaware -->
+ 
+   </li>
+   <li id="florida">
+ 
+     <!-- Florida -->
+ 
+   </li>
+   <li id="georgia">
+ 
+     <!-- Georgia -->
+ 
+   </li>
+   <li id="hawaii">
+ 
+     <!-- Hawaii -->
+ 
+   </li>
+   <li id="idaho">
+ 
+     <!-- Idaho -->
+ 
+   </li>
+   <li id="illinois">
+ 
+     <!-- Illinois -->
+ 
+   </li>
+   <li id="indiana">
+ 
+     <!-- Indiana -->
+ 
+   </li>
+   <li id="iowa">
+ 
+     <!-- Iowa -->
+ 
+   </li>
+   <li id="kansas">
+ 
+     <!-- Kansas -->
+ 
+   </li>
+   <li id="kentucky">
+ 
+     <!-- Kentucky -->
+ 
+   </li>
+   <li id="louisiana">
+ 
+     <!-- Louisiana -->
+ 
+   </li>
+   <li id="maine">
+ 
+     <!-- Maine -->
+ 
+   </li>
+   <li id="maryland">
+ 
+     <!-- Maryland -->
+ 
+   </li>
+   <li id="massachusetts">
+ 
+     <!-- Massachusetts -->
+ 
+   </li>
+   <li id="michigan">
+ 
+     <!-- Michigan -->
+ 
+   </li>
+   <li id="minnesota">
+ 
+     <!-- Minnesota -->
+ 
+   </li>
+   <li id="mississippi">
+ 
+     <!-- Mississippi -->
+ 
+   </li>
+   <li id="missouri">
+ 
+     <!-- Missouri -->
+ 
+   </li>
+   <li id="montana">
+ 
+     <!-- Montana -->
+ 
+   </li>
+   <li id="nebraska">
+ 
+     <!-- Nebraska -->
+ 
+   </li>
+   <li id="nevada">
+ 
+     <!-- Nevada -->
+ 
+   </li>
+   <li id="new-hampshire">
+ 
+     <!-- New Hampshire -->
+ 
+   </li>
+   <li id="new-jersey">
+ 
+     <!-- New Jersey -->
+ 
+   </li>
+   <li id="new-mexico">
+ 
+     <!-- New Mexico -->
+ 
+   </li>
+   <li id="new-york">
+ 
+     <!-- New York -->
+ 
+   </li>
+   <li id="north-carolina">
+ 
+     <!-- North Carolina -->
+ 
+   </li>
+   <li id="north-dakota">
+ 
+     <!-- North Dakota -->
+ 
+   </li>
+   <li id="ohio">
+ 
+     <!-- Ohio -->
+ 
+   </li>
+   <li id="oklahoma">
+ 
+     <!-- Oklahoma -->
+ 
+   </li>
+   <li id="oregon">
+ 
+     <!-- Oregon -->
+ 
+   </li>
+   <li id="pennsylvania">
+ 
+     <!-- Pennsylvania -->
+ 
+   </li>
+   <li id="rhode-island">
+ 
+     <!-- Rhode Island -->
+ 
+   </li>
+   <li id="south-carolina">
+ 
+     <!-- South Carolina -->
+ 
+   </li>
+   <li id="south-dakota">
+ 
+     <!-- South Dakota -->
+ 
+   </li>
+   <li id="tennessee">
+ 
+     <!-- Tennessee -->
+ 
+   </li>
+   <li id="texas">
+ 
+     <!-- Texas -->
+ 
+   </li>
+   <li id="utah">
+ 
+     <!-- Utah -->
+ 
+   </li>
+   <li id="vermont">
+ 
+     <!-- Vermont -->
+ 
+   </li>
+   <li id="virginia">
+ 
+     <!-- Virginia -->
+ 
+   </li>
+   <li id="washington">
+ 
+     <!-- Washington -->
+ 
+   </li>
+   <li id="washington-dc">
+ 
+     <!-- Washington DC -->
+ 
+   </li>
+   <li id="west-virginia">
+ 
+     <!-- West Virginia -->
+ 
+   </li>
+   <li id="wisconsin">
+ 
+     <!-- Wisconsin -->
+ 
+   </li>
+   <li id="wyoming">
+ 
+     <!-- Wyoming -->
+ 
+   </li>
+   <li id="puerto-rico">
+ 
+     <!-- Puerto Rico -->
+ 
+   </li>
+  </ul>
+ </div>
+
  <div id="demo-markers">
   <ul class="cssmap-pins">
    <li class="cssmap-pin" data-cssmap-coords="520,505">
@@ -133,4 +419,7 @@
   </ul>
  </div>
 
-</body>
+
+
+
+ 

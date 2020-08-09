@@ -15,7 +15,8 @@
                                        TOOLTIPS - DEFAULT
  * ---------------------------------------------------------------------------------------------------- */
  .mission-container {
-  padding: .4em 25em;
+  padding: .01em 25em;
+  font-size: 15px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
 
@@ -28,6 +29,8 @@
    font-size: 20px;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
+
+
  
  
  .cssmap > li a,.cssmap > li a:hover,.cssmap-tooltip-content{
