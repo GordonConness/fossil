@@ -32,7 +32,7 @@ $(document).ready(function(){
 
 // CSSMap;
 $("#map-usa").CSSMap({
-  "size": 1450,
+  "size": 1280,
   "mapStyle": "dark",
   "tooltips": "floating-top-center",
   "responsive": "auto",
@@ -40,7 +40,7 @@ $("#map-usa").CSSMap({
   "tapOnce": true,
   "mobileSupport": true,
   "visibleList": {
-    "enable": true,
+    "enable": false,
     "listPosition": "bottom",
     "columns": 5,
     "columnsGap": 0,
@@ -61,15 +61,6 @@ $("#map-usa").CSSMap({
     "tooltipOnClick": false,
     "clickableRegions": true
   },
-  "navigation": {
-    "enable": true,
-    "loop": true,
-    "next": "Next »",
-    "prev": "« Previous",
-    "separator": "|",
-    "label": "",
-    "description": ""
-  }
 });
 // END OF THE CSSMap;
 
@@ -133,268 +124,60 @@ $("#map-usa").CSSMap({
   </ul>
  </div>
 
- <div id="demo-agents">
+ <div id="demo-agents" class="demo-agents-list wrapper">
   <ul>
-   <li id="alabama">
- 
-     <!-- Alabama -->
- 
-   </li>
-   <li id="alaska">
- 
-     <!-- Alaska -->
- 
-   </li>
-   <li id="arizona">
- 
-     <!-- Arizona -->
- 
-   </li>
-   <li id="arkansas">
- 
-     <!-- Arkansas -->
- 
-   </li>
-   <li id="california">
- 
-     <!-- California -->
- 
-   </li>
-   <li id="colorado">
- 
-     <!-- Colorado -->
- 
-   </li>
-   <li id="connecticut">
- 
-     <!-- Connecticut -->
- 
-   </li>
-   <li id="delaware">
- 
-     <!-- Delaware -->
- 
-   </li>
-   <li id="florida">
- 
-     <!-- Florida -->
- 
-   </li>
-   <li id="georgia">
- 
-     <!-- Georgia -->
- 
-   </li>
-   <li id="hawaii">
- 
-     <!-- Hawaii -->
- 
-   </li>
-   <li id="idaho">
- 
-     <!-- Idaho -->
- 
-   </li>
-   <li id="illinois">
- 
-     <!-- Illinois -->
- 
-   </li>
-   <li id="indiana">
- 
-     <!-- Indiana -->
- 
-   </li>
-   <li id="iowa">
- 
-     <!-- Iowa -->
- 
-   </li>
-   <li id="kansas">
- 
-     <!-- Kansas -->
- 
-   </li>
-   <li id="kentucky">
- 
-     <!-- Kentucky -->
- 
-   </li>
-   <li id="louisiana">
- 
-     <!-- Louisiana -->
- 
-   </li>
-   <li id="maine">
- 
-     <!-- Maine -->
- 
-   </li>
-   <li id="maryland">
- 
-     <!-- Maryland -->
- 
-   </li>
-   <li id="massachusetts">
- 
-     <!-- Massachusetts -->
- 
-   </li>
-   <li id="michigan">
- 
-     <!-- Michigan -->
- 
-   </li>
-   <li id="minnesota">
- 
-     <!-- Minnesota -->
- 
-   </li>
-   <li id="mississippi">
- 
-     <!-- Mississippi -->
- 
-   </li>
-   <li id="missouri">
- 
-     <!-- Missouri -->
- 
-   </li>
-   <li id="montana">
- 
-     <!-- Montana -->
- 
-   </li>
-   <li id="nebraska">
- 
-     <!-- Nebraska -->
- 
-   </li>
-   <li id="nevada">
- 
-     <!-- Nevada -->
- 
-   </li>
-   <li id="new-hampshire">
- 
-     <!-- New Hampshire -->
- 
-   </li>
-   <li id="new-jersey">
- 
-     <!-- New Jersey -->
- 
-   </li>
-   <li id="new-mexico">
- 
-     <!-- New Mexico -->
- 
-   </li>
-   <li id="new-york">
- 
-     <!-- New York -->
- 
-   </li>
-   <li id="north-carolina">
- 
-     <!-- North Carolina -->
- 
-   </li>
-   <li id="north-dakota">
- 
-     <!-- North Dakota -->
- 
-   </li>
-   <li id="ohio">
- 
-     <!-- Ohio -->
- 
-   </li>
-   <li id="oklahoma">
- 
-     <!-- Oklahoma -->
- 
-   </li>
-   <li id="oregon">
- 
-     <!-- Oregon -->
- 
-   </li>
-   <li id="pennsylvania">
- 
-     <!-- Pennsylvania -->
- 
-   </li>
-   <li id="rhode-island">
- 
-     <!-- Rhode Island -->
- 
-   </li>
-   <li id="south-carolina">
- 
-     <!-- South Carolina -->
- 
-   </li>
-   <li id="south-dakota">
- 
-     <!-- South Dakota -->
- 
-   </li>
-   <li id="tennessee">
- 
-     <!-- Tennessee -->
- 
-   </li>
-   <li id="texas">
- 
-     <!-- Texas -->
- 
-   </li>
-   <li id="utah">
- 
-     <!-- Utah -->
- 
-   </li>
-   <li id="vermont">
- 
-     <!-- Vermont -->
- 
-   </li>
-   <li id="virginia">
- 
-     <!-- Virginia -->
- 
-   </li>
-   <li id="washington">
- 
-     <!-- Washington -->
- 
-   </li>
-   <li id="washington-dc">
- 
-     <!-- Washington DC -->
- 
-   </li>
-   <li id="west-virginia">
- 
-     <!-- West Virginia -->
- 
-   </li>
-   <li id="wisconsin">
- 
-     <!-- Wisconsin -->
- 
-   </li>
-   <li id="wyoming">
- 
-     <!-- Wyoming -->
- 
-   </li>
-   <li id="puerto-rico">
- 
-     <!-- Puerto Rico -->
- 
-   </li>
+   <li id="alabama"><h3>Alabama</h3><p>Some info about Alabama, or list of addresses, or anything else you want to display here.</p><p>Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper.</p>  </li>
+   <li id="alaska"><h3>Alaska</h3><p>Some info about Alaska, or list of addresses, or anything else you want to display here.</p><p>Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat.</p>  </li>
+   <li id="arizona"><h3>Arizona</h3><p>Some info about Arizona, or list of addresses, or anything else you want to display here.</p><p>Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat.</p>  </li>
+   <li id="arkansas"><h3>Arkansas</h3><p>Some info about Arkansas, or list of addresses, or anything else you want to display here.</p><p>Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Aenean facilisis nulla vitae urna tincidunt congue sed.</p>  </li>
+   <li id="california"><h3>California</h3><p>Some info about California, or list of addresses, or anything else you want to display here.</p><p>Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor.</p>  </li>
+   <li id="colorado"><h3>Colorado</h3><p>Some info about Colorado, or list of addresses, or anything else you want to display here.</p><p>In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam.</p>  </li>
+   <li id="connecticut"><h3>Connecticut</h3><p>Some info about Connecticut, or list of addresses, or anything else you want to display here.</p><p>Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor.</p>  </li>
+   <li id="delaware"><h3>Delaware</h3><p>Some info about Delaware, or list of addresses, or anything else you want to display here.</p><p>Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Aenean facilisis nulla vitae urna tincidunt congue sed.</p>  </li>
+   <li id="florida"><h3>Florida</h3><p>Some info about Florida, or list of addresses, or anything else you want to display here.</p><p>Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum.</p>  </li>
+   <li id="georgia"><h3>Georgia</h3><p>Some info about Georgia, or list of addresses, or anything else you want to display here.</p><p>Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat.</p>  </li>
+   <li id="hawaii"><h3>Hawaii</h3><p>Some info about Hawaii, or list of addresses, or anything else you want to display here.</p><p>Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat.</p>  </li>
+   <li id="idaho"><h3>Idaho</h3><p>Some info about Idaho, or list of addresses, or anything else you want to display here.</p><p>Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor.</p>  </li>
+   <li id="illinois"><h3>Illinois</h3><p>Some info about Illinois, or list of addresses, or anything else you want to display here.</p><p>Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper.</p>  </li>
+   <li id="indiana"><h3>Indiana</h3><p>Some info about Indiana, or list of addresses, or anything else you want to display here.</p><p>In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam.</p>  </li>
+   <li id="iowa"><h3>Iowa</h3><p>Some info about Iowa, or list of addresses, or anything else you want to display here.</p><p>In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam.</p>  </li>
+   <li id="kansas"><h3>Kansas</h3><p>Some info about Kansas, or list of addresses, or anything else you want to display here.</p><p>Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper.</p>  </li>
+   <li id="kentucky"><h3>Kentucky</h3><p>Some info about Kentucky, or list of addresses, or anything else you want to display here.</p><p>Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Aenean facilisis nulla vitae urna tincidunt congue sed.</p>  </li>
+   <li id="louisiana"><h3>Louisiana</h3><p>Some info about Louisiana, or list of addresses, or anything else you want to display here.</p><p>Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Aenean facilisis nulla vitae urna tincidunt congue sed.</p>  </li>
+   <li id="maine"><h3>Maine</h3><p>Some info about Maine, or list of addresses, or anything else you want to display here.</p><p>In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam.</p>  </li>
+   <li id="maryland"><h3>Maryland</h3><p>Some info about Maryland, or list of addresses, or anything else you want to display here.</p><p>Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa, ut.</p>  </li>
+   <li id="massachusetts"><h3>Massachusetts</h3><p>Some info about Massachusetts, or list of addresses, or anything else you want to display here.</p><p>Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Aenean facilisis nulla vitae urna tincidunt congue sed.</p>  </li>
+   <li id="michigan"><h3>Michigan</h3><p>Some info about Michigan, or list of addresses, or anything else you want to display here.</p><p>Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat.</p>  </li>
+   <li id="minnesota"><h3>Minnesota</h3><p>Some info about Minnesota, or list of addresses, or anything else you want to display here.</p><p>Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat.</p>  </li>
+   <li id="mississippi"><h3>Mississippi</h3><p>Some info about Mississippi, or list of addresses, or anything else you want to display here.</p><p>In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam.</p>  </li>
+   <li id="missouri"><h3>Missouri</h3><p>Some info about Missouri, or list of addresses, or anything else you want to display here.</p><p>Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper.</p>  </li>
+   <li id="montana"><h3>Montana</h3><p>Some info about Montana, or list of addresses, or anything else you want to display here.</p><p>Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Aenean facilisis nulla vitae urna tincidunt congue sed.</p>  </li>
+   <li id="nebraska"><h3>Nebraska</h3><p>Some info about Nebraska, or list of addresses, or anything else you want to display here.</p><p>Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper.</p>  </li>
+   <li id="nevada"><h3>Nevada</h3><p>Some info about Nevada, or list of addresses, or anything else you want to display here.</p><p>Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Aenean facilisis nulla vitae urna tincidunt congue sed.</p>  </li>
+   <li id="new-hampshire"><h3>New Hampshire</h3><p>Some info about New Hampshire, or list of addresses, or anything else you want to display here.</p><p>Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat.</p>  </li>
+   <li id="new-jersey"><h3>New Jersey</h3><p>Some info about New Jersey, or list of addresses, or anything else you want to display here.</p><p>Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor.</p>  </li>
+   <li id="new-mexico"><h3>New Mexico</h3><p>Some info about New Mexico, or list of addresses, or anything else you want to display here.</p><p>Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum.</p>  </li>
+   <li id="new-york"><h3>New York</h3><p>Some info about New York, or list of addresses, or anything else you want to display here.</p><p>Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat.</p>  </li>
+   <li id="north-carolina"><h3>North Carolina</h3><p>Some info about North Carolina, or list of addresses, or anything else you want to display here.</p><p>Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa, ut.</p>  </li>
+   <li id="north-dakota"><h3>North Dakota</h3><p>Some info about North Dakota, or list of addresses, or anything else you want to display here.</p><p>Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat.</p>  </li>
+   <li id="ohio"><h3>Ohio</h3><p>Some info about Ohio, or list of addresses, or anything else you want to display here.</p><p>Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa, ut.</p>  </li>
+   <li id="oklahoma"><h3>Oklahoma</h3><p>Some info about Oklahoma, or list of addresses, or anything else you want to display here.</p><p>Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum.</p>  </li>
+   <li id="oregon"><h3>Oregon</h3><p>Some info about Oregon, or list of addresses, or anything else you want to display here.</p><p>Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Aenean facilisis nulla vitae urna tincidunt congue sed.</p>  </li>
+   <li id="pennsylvania"><h3>Pennsylvania</h3><p>Some info about Pennsylvania, or list of addresses, or anything else you want to display here.</p><p>Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum.</p>  </li>
+   <li id="rhode-island"><h3>Rhode Island</h3><p>Some info about Rhode Island, or list of addresses, or anything else you want to display here.</p><p>In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam.</p>  </li>
+   <li id="south-carolina"><h3>South Carolina</h3><p>Some info about South Carolina, or list of addresses, or anything else you want to display here.</p><p>Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper.</p>  </li>
+   <li id="south-dakota"><h3>South Dakota</h3><p>Some info about South Dakota, or list of addresses, or anything else you want to display here.</p><p>Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Aenean facilisis nulla vitae urna tincidunt congue sed.</p>  </li>
+   <li id="tennessee"><h3>Tennessee</h3><p>Some info about Tennessee, or list of addresses, or anything else you want to display here.</p><p>Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor.</p>  </li>
+   <li id="texas"><h3>Texas</h3><p>Some info about Texas, or list of addresses, or anything else you want to display here.</p><p>In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam.</p>  </li>
+   <li id="utah"><h3>Utah</h3><p>Some info about Utah, or list of addresses, or anything else you want to display here.</p><p>Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa, ut.</p>  </li>
+   <li id="vermont"><h3>Vermont</h3><p>Some info about Vermont, or list of addresses, or anything else you want to display here.</p><p>Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor.</p>  </li>
+   <li id="virginia"><h3>Virginia</h3><p>Some info about Virginia, or list of addresses, or anything else you want to display here.</p><p>In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam.</p>  </li>
+   <li id="washington"><h3>Washington</h3><p>Some info about Washington, or list of addresses, or anything else you want to display here.</p><p>Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum.</p>  </li>
+   <li id="washington-dc"><h3>Washington DC</h3><p>Some info about Washington DC, or list of addresses, or anything else you want to display here.</p><p>In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam.</p>  </li>
+   <li id="west-virginia"><h3>West Virginia</h3><p>Some info about West Virginia, or list of addresses, or anything else you want to display here.</p><p>Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper.</p>  </li>
+   <li id="wisconsin"><h3>Wisconsin</h3><p>Some info about Wisconsin, or list of addresses, or anything else you want to display here.</p><p>Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere. Praesent id metus massa, ut.</p>  </li>
+   <li id="wyoming"><h3>Wyoming</h3><p>Some info about Wyoming, or list of addresses, or anything else you want to display here.</p><p>Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor.</p>  </li>
+   <li id="puerto-rico"><h3>Puerto Rico</h3><p>Some info about Puerto Rico, or list of addresses, or anything else you want to display here.</p><p>Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis. Nam vestibulum, arcu sodales feugiat.</p>  </li>
   </ul>
  </div>
 
@@ -418,8 +201,5 @@ $("#map-usa").CSSMap({
    </li>
   </ul>
  </div>
-
-
-
 
  
